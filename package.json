@@ -1,0 +1,12 @@
+{
+  "name": "light-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node test/indexTest.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
