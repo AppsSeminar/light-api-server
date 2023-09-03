@@ -1,0 +1,10 @@
+version: "1"
+services:
+  db:
+    build: .
+    ports:
+      - 3001:3000
+    volumes:
+      - ./:/volume
+    command: yarn start
+    working_dir: /volume
